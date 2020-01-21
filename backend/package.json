@@ -6,10 +6,9 @@
   "scripts": {
     "test": "miems"
   },
-  "repository": {
-    "type": "git",
+      "type": "git",
     "url": "#3_achterkanteinde"
-  },
+  ,
   "keywords": [
     "backend"
   ],
