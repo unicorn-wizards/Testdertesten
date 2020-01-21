@@ -4,8 +4,10 @@
   "description": "Database voor de Hondensite",
   "main": "index.js",
   "scripts": {
-    "test": "woef"
+    "test": "woef",
+    "start dev": "nodemon index.js"
   },
   "author": "",
   "license": "ISC"
+  
 }
