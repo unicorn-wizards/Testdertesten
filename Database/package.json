@@ -1,0 +1,11 @@
+{
+  "name": "database",
+  "version": "1.0.0",
+  "description": "Database voor de Hondensite",
+  "main": "index.js",
+  "scripts": {
+    "test": "woef"
+  },
+  "author": "",
+  "license": "ISC"
+}
