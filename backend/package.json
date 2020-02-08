@@ -7,13 +7,16 @@
     "test": "miems",
     "dev": "nodemon index.js"
   },
-  "repository": {
-    "type": "git",
+      "type": "git",
     "url": "#3_achterkanteinde"
-  },
+  ,
   "keywords": [
     "backend"
   ],
   "author": "Thijs",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "handlebars": "^4.7.2"
+  }
 }
