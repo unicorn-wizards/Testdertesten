@@ -7,8 +7,6 @@
     "test": "miems",
     "dev": "nodemon index.js"
   },
-  "type": "git",
-  "url": "#3_achterkanteinde",
   "keywords": [
     "backend"
   ],
