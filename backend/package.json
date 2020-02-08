@@ -4,7 +4,8 @@
   "description": "eerste begin",
   "main": "index.js",
   "scripts": {
-    "test": "miems"
+    "test": "miems",
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
