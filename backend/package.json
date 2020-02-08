@@ -7,9 +7,8 @@
     "test": "miems",
     "dev": "nodemon index.js"
   },
-      "type": "git",
-    "url": "#3_achterkanteinde"
-  ,
+  "type": "git",
+  "url": "#3_achterkanteinde",
   "keywords": [
     "backend"
   ],
@@ -18,5 +17,8 @@
   "dependencies": {
     "express": "^4.17.1",
     "handlebars": "^4.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
   }
 }
