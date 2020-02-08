@@ -5,9 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "woef",
-    "start dev": "nodemon index.js"
+    "dev": "nodemon index.js"
   },
-  "author": "",
-  "license": "ISC"
-  
+  "author": "Twigwalker",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
 }
