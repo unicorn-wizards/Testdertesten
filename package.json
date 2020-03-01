@@ -1,0 +1,30 @@
+{
+  "name": "Testdertesten",
+  "version": "1.0.0",
+  "description": "Weer zo'n leipe test opdracht\r Dit gedeelte van de opdracht betreft het einde der achterkant\r Hier gaan we alle honden die worden opgevraagd maken",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fsevents": "^1.2.11",
+    "nodemon": "^2.0.2",
+    "webpack-dev-server": "^3.10.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "front": "npm run --prefix frontend dev",
+    "back": "npm run --prefix backend dev",
+    "db": "npm run --prefix database dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unicorn-wizards/Testdertesten.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unicorn-wizards/Testdertesten/issues"
+  },
+  "homepage": "https://github.com/unicorn-wizards/Testdertesten#readme"
+}
