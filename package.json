@@ -9,12 +9,15 @@
     "nodemon": "^2.0.2",
     "webpack-dev-server": "^3.10.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "concurrently": "^5.1.0"
+  },
   "scripts": {
     "test": "npm run lint",
     "front": "npm run --prefix frontend dev",
     "back": "npm run --prefix backend dev",
     "db": "npm run --prefix database dev",
+    "dev": "concurrently --kill-others \"npm run front\" \"npm run back\" \"npm run db\"",
     "lint": "npm run --prefix backend lint"
   },
   "repository": {
