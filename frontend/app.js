@@ -1,13 +1,13 @@
-var express = require('express');
-var exphbs  = require('express-handlebars');
+var express = require("express");
+var exphbs  = require("express-handlebars");
  
 var app = express();
  
-app.engine('handlebars', exphbs());
-app.set('view engine', 'handlebars');
+app.engine("handlebars", exphbs());
+app.set("view engine", "handlebars");
  
-app.get('/', function (req, res) {
-    res.render('home');
+app.get("/", function (req, res) {
+    res.render("home");
 });
  
 app.listen(3002);
