@@ -13,11 +13,12 @@
     "concurrently": "^5.1.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "npm run lint",
     "front": "npm run --prefix frontend dev",
     "back": "npm run --prefix backend dev",
     "db": "npm run --prefix database dev",
-    "dev": "concurrently --kill-others \"npm run front\" \"npm run back\" \"npm run db\""
+    "dev": "concurrently --kill-others \"npm run front\" \"npm run back\" \"npm run db\"",
+    "lint": "npm run --prefix backend lint"
   },
   "repository": {
     "type": "git",
