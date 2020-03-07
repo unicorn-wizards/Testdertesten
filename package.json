@@ -11,10 +11,11 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "npm run lint",
     "front": "npm run --prefix frontend dev",
     "back": "npm run --prefix backend dev",
-    "db": "npm run --prefix database dev"
+    "db": "npm run --prefix database dev",
+    "lint": "npm run --prefix backend lint"
   },
   "repository": {
     "type": "git",
