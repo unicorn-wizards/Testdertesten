@@ -4,7 +4,7 @@
   "description": "Weer zo'n leipe test opdracht\r Dit gedeelte van de opdracht betreft het einde der achterkant\r Hier gaan we alle honden die worden opgevraagd maken",
   "main": "index.js",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "fsevents": "^1.2.11",
     "nodemon": "^2.0.2",
     "webpack-dev-server": "^3.10.1"
